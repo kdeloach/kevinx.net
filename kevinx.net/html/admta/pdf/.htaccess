@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Everything in this directory will be passed to the pdf parser
+# This directory should be for PDF generating only
+RewriteRule ^(.[^\.]+)\.pdf$ pdf.php?event_id=$1  [L]

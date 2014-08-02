@@ -1,0 +1,59 @@
+/* Reset */
+/* * * * * * * * * * * * * * * * * * * * * * */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+}
+body { background-color:#fff; color:#000; }
+legend { color:#000 }
+ul, ol { margin:10px 0; padding:0 0 0 25px; }
+a img { border:none }
+img { vertical-align:middle }
+/* * * * * * * * * * * * * * * * * * * * * * */ 
+
+
+/* Generic Styling */
+/* * * * * * * * * * * * * * * * * * * * * * */ 
+/* Typography */
+body { font-family: helvetica, "microsoft sans serif", arial, sans-serif; font-size: 12px; line-height: 16px; }
+
+
+/* Forms */
+form { float:left; clear:left; }
+form label { display:block; float:left; clear:left; width:175px; padding:1px; }
+form label.normal { float:none; clear:none; width:auto; font-weight:normal; display:inline; }
+form span { display:block; float:left; padding:1px; }
+form p { clear:left; }
+
+
+/* <hr /> Replacement */
+div.hr { clear:left; border:0; border-top:1px solid #999; height:1px; line-height:0; background-color:transparent; padding:0; margin:10px; }
+
+/* Formatting shortcuts */
+.bold { font-weight:bold }
+.italic { font-style:italic }
+.underline { text-decoration:underline } /* Yuck */
+.small { font-size:10px }
+.gray { color:#aaa }
+.red { color:#f00 }
+p.center { text-align:center }
+p.right { text-align:right } 
+p.left { text-align:left }
+.float-left { float:left }
+.float-right { float:right }
+.clear-left { clear:left }
+.clear-right { clear:right }
+.clear-both { clear:both }
+img.right { float:right; margin:0 0    10px 10px; }
+img.left  { float:left;  margin:0 10px 10px 0; }
+.hide { display:none }
+
+hr.spacer { clear:left; height:1px; border:none; background-color:transparent; color:inherit; margin:0; padding:0; }
+/* * * * * * * * * * * * * * * * * * * * * * */ 

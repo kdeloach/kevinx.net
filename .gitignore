@@ -1,0 +1,11 @@
+*~
+logs/
+.htpasswd
+
+local_settings.php
+
+# TF2 maps and things.
+kevinx.net/html/tf*
+kevinx.net/html/th*
+
+kevinx.net/html/ssimon/

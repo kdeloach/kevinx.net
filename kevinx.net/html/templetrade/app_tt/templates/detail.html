@@ -1,0 +1,50 @@
+{% extends "master.html" %}
+
+{% block content %} 
+
+<div class="bookDetail">
+
+    <div class="grid_5 suffix_1">
+        <p>
+            <img src="content/upload/eng1.jpg" alt="" />
+        </p>
+    </div>
+    
+    <div class="grid_10">
+        <div class="title">
+            <h2>Security Engineering: A Guide to Building Dependable Distributed Systems [Hardcover]</h2>
+        </div>
+        <div class="authors">
+            <p>
+                <a href="">Ronald L. Graham</a> (Author), <a href="">Donald E. Knuth</a> (Author), <a href="">Oren Patashnik</a> (Author)
+            </p>
+        </div>
+        <div class="price">
+            <p>$62.39</p>
+        </div>
+        <div class="act">
+            <p>                
+                {{btnContactSeller}} {{btnAlert}}
+            </p>
+        </div>
+        
+        {{ macros.featureBox(
+            '<h2>Details</h2>', 
+            'info', '
+            <table cellspacing="1" cellpadding="5" border="0">
+                <tr><th>Hardcover:</th><td>672 pages</td></tr>
+                <tr><th>Publisher:</th><td>Addison-Wesley Professional; 2 edition (March 10, 1994)</td></tr>
+                <tr><th>Language:</th><td>English</td></tr>
+                <tr><th>ISBN-10:</th><td>0201558025</td></tr>
+                <tr><th>ISBN-13:</th><td>978-0201558029</td></tr>
+                <tr><th>Product Dimensions:</th><td>9.3 x 7.5 x 1.7 inches</td></tr>
+            </table>  
+        ')}}
+        
+    </div>
+
+    
+</div>
+
+
+{% endblock %}

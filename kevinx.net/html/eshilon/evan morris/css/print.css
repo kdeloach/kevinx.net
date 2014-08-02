@@ -1,0 +1,10 @@
+#search-bar { display:none; }
+#sub-header h2, #sub-header h3, #sub-header h4 { display:block; margin:5px; height:auto;  }
+#sub-header-right { display:none; }
+#sub-header-title,#sub-header-title2 { height:auto; }
+#sub-header { height:auto; }
+#service-links, #header-nav, #footer { display:none; }
+#content { width:auto; }
+
+
+a { text-decoration:underline } /* links aren't as obvious in print */

@@ -1,0 +1,11 @@
+
+{% macro featurebox(title, cssClass, content) %}
+    <div class="featureBox {{cssClass}}">
+        <div class="featureTitle ">
+            <div class="inner">{{title}}</div>
+        </div>
+        <div class="featureBody">
+            <div class="inner">{{content}}</div>
+        </div>
+    </div>
+{% endmacro %}

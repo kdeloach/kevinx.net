@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<config>
+    <settings>
+        <siteUrl>http://localhost:8080/templetrade/www/</siteUrl>
+        <appPath>/var/www/kevinx.net/html/templetrade/app_tt/</appPath>
+        <database dsn="mysql:dbname=kworks;host=localhost" user="root" pass="" />
+    </settings>
+	<handlers>
+		<add name="RouteHandler" pattern="*" />
+	</handlers>
+    <routes>
+        <route name="test" controller="IndexController" action="test" pattern="/test" />
+        <route name="add" controller="IndexController" action="add" pattern="/add" />
+        <route name="detail" controller="IndexController" action="detail" pattern="/detail/[bookid]" />
+        <route name="browse" controller="IndexController" action="browse" pattern="/browse" />
+        <route name="browse" controller="IndexController" action="browse" pattern="/browse/[filter]" />
+        <route name="catchall" controller="IndexController" action="index" pattern="" />
+    </routes>
+</config>

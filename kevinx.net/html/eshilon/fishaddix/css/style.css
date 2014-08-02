@@ -1,0 +1,70 @@
+@import url(reset.css);
+@import url(generic.css);
+/* @import url(debug.css); */
+@import url(EditMe.css); 
+
+body { font-family: arial, sans-serif; font-size: 12px; line-height: 18px; color: #3f3d1f; background-color:#000; }
+
+a:link    { text-decoration:underline; color:#3f3d1f; }
+a:visited { text-decoration:underline; color:#3f3d1f; }
+a:hover   { text-decoration:underline; color:#3f3d1f; }
+a:active  { text-decoration:underline; color:#3f3d1f; }
+
+
+h1 { padding:25px 0 5px 25px; margin:0;  }
+h2 { padding:0 0 0 25px;  margin:0; font-size:13px; line-height:20px; color:#fff; }
+#header { margin:0; padding:0; height:118px; background:#fff url(../images/header-bg.png) top left repeat-x; }
+
+#loginFrm { float:right; width:244px; height:76px; padding:15px; margin:5px; background:url(../images/loginFrm-bg.png) no-repeat; }
+#loginFrm p { margin-bottom:7px; font-size:14px; line-height:18px; color:#666; font-weight:bold; }
+#loginFrm label { float:left; clear:left; width:75px; font-size:11px; line-height:18px; color:#666; text-align:right; font-weight:bold; }
+#loginFrm span { float:left; width:150px; line-height:18px; }
+#loginFrm label, #loginFrm span { padding:3px; }
+
+#nav { clear:left; height:24px; background:#000 url(../images/nav-bg.png) repeat-x; }
+#nav ul { list-style-type:none; margin:0; margin-left:25px; padding:0; }
+#nav li { float:left; margin:0; padding:0; }
+#nav li.pipe { width:2px; height:24px; background:url(../images/nav-pipe.png); }
+#nav li a { display:block; font-size:11px; line-height:20px; color:#b5b5b5; text-decoration:none; font-weight:bold; padding: 2px 20px;  }
+#nav li a:hover { color:#fff; background:#000 url(../images/nav-bg-hover.png) repeat-x; margin:0;   }
+
+
+#content-wrapper { clear:left; float:left; background-color:#fffde7; width:100%; }
+#content { background-color: #fffde7;  }
+#content p { margin:14px 8px; }
+#content .block { float:left; margin:10px 0 0 10px; background-color:#fff; }
+#content .block .block-left { width:3px; height:115px; background:#fff url(../images/block-left.png) no-repeat; float:left; }
+#content .block .block-right { width:3px; height:115px; background:#fff url(../images/block-right.png) no-repeat; float:left; }
+#content .block .block-body { padding:9px 7px; margin:0; background:#fff url(../images/block-top.png) repeat-x; float:left;  }
+#content .block .block-title { color: #fff; font-size:24px; line-height:20px; font-weight:bold; margin:0 0 5px 0; padding:8px; height:24px; }
+
+#content .block2 { float:left; margin:0 0 10px 10px; background-color:#fff; }
+#content .block2 .block-body { padding:9px 7px; margin:0; float:left;  }
+#content .block2 .block-left { width:3px; height:115px; float:left; }
+#content .block2 .block-right { width:3px; height:115px; float:left; }
+#content .block2 .block-title { color: #fff; font-size:24px; line-height:20px; font-weight:bold; margin:0 0 5px 0; padding:8px; height:24px; }
+
+.schemeBlu { background-color:#A3CBE6; }
+.schemeRed { background-color:#CF936B; }
+.schemeGrn { background-color:#7EA22D; }
+
+
+.style1 { font-size:12px; line-height:20px; color:#666; }
+a.tinylink { font-size:10px; line-height:20px; color:#36c; }
+
+
+#lower-content-wrapper { clear:left; float:left; background-color: #e8e6cd; width:100%; }
+#lower-content { background-color: #e8e6cd; border-top:2px solid #dad9c1; }
+#lower-content .block { float:left; margin:0 0 10px 10px; background-color: #e8e6cd; padding:0px; }
+#lower-content .block .block-body { padding:9px 7px; margin:0; float:left;  }
+#lower-content .block .block-left { width:3px; height:115px; float:left; }
+#lower-content .block .block-right { width:3px; height:115px; float:left; }
+#lower-content .block .block-title { color: #d2946c; font-size:18px; line-height:18px; font-weight:bold; margin-bottom:10px; }
+
+
+#footer { clear:left; background-color:#000; font-size:11px; line-height:20px; color:#fff; padding:10px 25px; border-top:1px solid #fff; }
+#footer a:link    { text-decoration:none; color:#fff; }
+#footer a:visited { text-decoration:none; color:#fff; }
+#footer a:hover   { text-decoration:underline; color:#fff; }
+#footer a:active  { text-decoration:none; color:#fff; }
+#footer .footer-copyright { color:#e97705; }

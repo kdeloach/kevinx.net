@@ -1,0 +1,48 @@
+@import url(kevinxnet.css);
+
+body { font-family: "Delicious Heavy", arial, sans-serif; font-size: 12px; line-height: 16px; color: #000; background:#467fbe url(../images/bg.gif) repeat-x; }
+
+a:link    { text-decoration:underline; color:#000; }
+a:visited { text-decoration:underline; color:#999; }
+a:hover   { text-decoration:underline; color:#999; }
+a:active  { text-decoration:underline; color:#000; }
+
+p { margin:0; padding:10px 0; }
+
+#container-wrapper { width:100%; min-width:780px; }
+#container { width:778px; margin:0 auto; background:url(../images/container-bg.gif) repeat-y; }
+
+.bg-left {  float:left; padding-left:9px; background:url(../images/container-left.gif) top left no-repeat; }
+.bg-right {  float:left; padding-right:9px; background:url(../images/container-right.gif) top right no-repeat; }
+.bg-bottom { clear:left;height:10px; background:url(../images/container-bottom.gif) top left no-repeat; }
+
+#header { float:left; height:115px; }
+#header-banner { float:left; width:393px; height:115px; }
+#header-nav { float:left; background:url(../images/nav-bg.jpg) top left repeat-x; }
+#header-nav ul { margin:0; padding:0; list-style-type:none; float:left; }
+#header-nav li { margin:0; padding:0; float:left; }
+
+#header-nav-right { display:block; float:left; width:45px; height:115px; background:url(../images/nav-right.jpg) top left no-repeat; }
+
+#sub-header { clear:left; float:left; width:760px; height:192px; }
+#sub-header-title h2, #sub-header-title h3, #sub-header-title2 h4 { display:none; clear:none; }
+#sub-header-title { float:left; clear:none; width:393px; height:192px; background:url(../images/dj-service-evan-morris.jpg) top left no-repeat; }
+#sub-header-title2 { float:left; clear:none; width:322px; height:192px; background:url(../images/welcome-to-bluegrassbeat.jpg) top left no-repeat; }
+#sub-header-right { float:left; clear:none; width:45px; height:192px; background:url(../images/sub-header-right.jpg) top left no-repeat; }
+
+#search-bar { clear:left; float:left; width:760px; height:26px; background:url(../images/search-bg.jpg) top left repeat-x; line-height:24px; border:1px solid #677461; border-right:none; border-left:none;}
+#search-bar form { margin:0;padding:0 10px; }
+#search-bar input { border:none; vertical-align:middle; margin:0 2px; }
+
+#content-wrapper { clear:left; float:left; width:760px; background:#fff url(../images/content-bg.jpg) top left repeat-x; border-bottom:1px solid #ccc; } 
+#content { float:left; margin:0; padding:15px; width:476px; }
+
+#service-links { float:left; padding:7px; width:240px; }
+#service-links ul { margin:0; padding:0; list-style-type:none; }
+#service-links a { display:block; width:220px; height:31px; background:url(../images/service-link-bg.jpg) no-repeat; margin-bottom:9px; border:1px solid #d2d2d2; padding:6px 9px; }
+#service-links a { color:#fff; font-weight:bold; text-decoration:none; font-family: "Delicious Heavy", arial, sans-serif;}
+#service-links a:hover { text-decoration:underline; }
+
+#footer { clear:left; float:left; padding:0 15px; height:32px; width:730px; background:url(../images/footer-bg.gif); border-top:1px solid #fff; }
+#footer ul { margin:0; padding:0; list-style-type:none; float:right;  }
+#footer li { margin:0 9px; padding:7px 0 0 0; float:left; height:32px; }

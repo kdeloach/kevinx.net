@@ -1,0 +1,21 @@
+/* don't really need to touch this file, its just default values and helpers  */
+
+/* typography */
+body { font-family: helvetica, "microsoft sans serif", arial, sans-serif; font-size: 12px; line-height: 21px; }
+
+
+/* formatting shortcuts */
+.bold { font-weight:bold }
+.italic { font-style:italic }
+.underline { text-decoration:underline }
+.small { font-size:70% }
+.gray { color:#666 }
+.align-center { text-align:center } /* have to think about this one */
+.align-right { text-align:right; } 
+
+.float-left { float:left; }
+.float-right { float:right; }
+.img-right { float:right; margin:8px 4px 8px 10px; }
+.img-left { float:left; margin:8px 10px 8px 4px; }
+
+hr.spacer { clear:left; height:1px; border:none; background-color:#fffde7; color:#fffde7; margin:0; padding:0;}

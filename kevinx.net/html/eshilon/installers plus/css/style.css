@@ -1,0 +1,38 @@
+@import url(kevinxnet.css);
+
+body { font-family: "Tahoma", arial, sans-serif; font-size: 12px; line-height: 16px; color: #000; background:#fff url(../images/body-bg.jpg) top center repeat-y; }
+
+a:link    { text-decoration:underline; color:#222769; }
+a:visited { text-decoration:underline; color:#222769; }
+a:hover   { text-decoration:underline; color:#952626; }
+a:active  { text-decoration:underline; color:#952626; }
+
+#container-wrapper { width:100%; }
+#container { margin:0 auto; width:724px; }
+
+#header, #nav, #headline, #subnav, #content
+{ float:left; clear:left; width:724px; }
+
+#header { background:#ccc url(../images/header-bg.gif); }
+
+#nav { height:147px; background:#dddac1 url(../images/nav/bg.jpg) top right no-repeat; }
+#nav ul { margin:0; padding:0; list-style-type:none; margin-top:20px; margin-left:23px; }
+#nav li { margin:0; padding:0; display:inline; margin-right:4px;  }
+#nav a { outline:none; }
+
+#headline { width:704px; border-top:2px solid #43494b; text-align:center; padding:10px; background-color:#fff;
+            font-family:Arial,sans-serif; font-size:11px; line-height:12px; color:#000; font-weight:bold;
+}
+
+#subnav { height:34px; padding-top:29px; background:#a29c6c url(../images/subnav-bg.gif) no-repeat; text-align:center; }
+/* See HTML code near subnav div for how to set the size */
+#subnav ul { margin:0 auto; text-align:center; padding:0; list-style-type:none; }
+#subnav li { display:inline; float:left; padding:0; margin:0 1px; width:84px; height:34px; }
+#subnav a { display:block; width:72px; height:20px; padding:7px 6px;
+            font-family:"Trebuchet MS",sans-serif; font-size:10px; font-weight:bold; line-height:10px; color:#fff; text-align:center; text-decoration:none; background:#555 url(../images/subnav-tab-normal.gif) no-repeat; vertical-align:middle;
+}
+#subnav a:hover, #subnav a.active { background:#fff url(../images/subnav-tab-active.gif) no-repeat; color:#000; }
+
+#content { padding:20px 40px; width:644px; background-color:#fff; }
+#content p { margin-top:10px; }
+#content .quote { margin:10px 0; padding:26px; background-color:#d7d7d7; border:1px dashed #7f7f7f; border-left:0; border-right:0; font-size:17px; line-height:35px; font-family:"Georgia",serif; color:#1a1a1a; }

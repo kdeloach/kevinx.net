@@ -1,0 +1,8 @@
+RewriteEngine on
+
+# 
+# ex: mg_z152x152_biking.jpeg
+# will be a resized version of the original 
+#RewriteRule ^img_(z)?(q(.[0-9]{1,3})_)?((\d|null)+)x((\d|null)+)_(.+)$ /campconnect/img.php?z=$1&q=$3&w=$4&h=$6&src=$8 [L]
+
+RewriteRule ^img_(z_)?(q([0-9]{1,3})_)?([0-9]{1,})x([0-9]{1,})_(.+)$ /campconnect/img.php?z=$1&q=$3&w=$4&h=$5&src=$6 [L]

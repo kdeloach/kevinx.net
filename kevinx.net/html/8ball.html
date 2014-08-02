@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Magic 8-ball</title>
+<script language="javascript">
+var msg = Array(
+'You May Rely On It',
+'Cannot Predict Now',
+'Reply Hazy, Try Again',
+'Ask Again Later',
+'Outlook Good',
+'Don\'t Count On It',
+'My Reply Is No',
+'Outlook Not So Good',
+'Very Doubtful',
+'Signs Point to Yes',
+'Concentrate and Ask Again',
+'It Is Decidedly So',
+'My Sources Say No',
+'As I See It, Yes',
+'Without a Doubt',
+'Most Likely',
+'Yes',
+'It Is Certain',
+'Better Not Tell You Now',
+'Yes Definitely'
+);
+function nw(frm){
+  frm.txt.value=msg[parseInt(Math.random()*msg.length)]
+}
+</script>
+</head>
+<body style="background:#000;color:#fff" onLoad="nw(document)">
+
+<p align="center">
+
+<h1 style="font-size:80pt;" align="center">The Magic 8 Ball</h1>
+
+<form>
+<center><input type="button" value="Ask the wise magic 8 ball" onClick="nw(this.form)" /><input type="text" style="background-color:#000;color:#fff;border:none;padding:15px" name="txt" readonly style="" /></center>
+</form>
+
+</p>
+
+
+</body>
+</html>

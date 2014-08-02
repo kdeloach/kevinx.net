@@ -1,0 +1,46 @@
+body { margin: 0; font-size: 14px; line-height: 18px; font-family: Arial, Verdana, sans-serif; background: url(../images/text-bg.gif) repeat-x; background-position: 0 110px; }
+
+a { color: #900; text-decoration: underline; }
+hr { border: 0; height: 1%; margin: 0; padding: 0; color: #ccc; background: #ccc; font-size: 0; line-height: 0; }
+
+#top { width: 100%; }
+#head { display: block; height: 110px; width: 100%; }
+#head-center { width: 800px; margin: 0 auto; }
+#body { display: block; clear: left; width: 800px; margin: 0 auto; }
+#footer { display: block; clear: left; width: 800px; margin: 0 auto; }
+
+/* Banner */ 
+#banner { float: left; } 
+#banner h1 { margin: 0; padding: 0; font-size: 0; line-height: 0; }
+#banner h1 span { display: none; }
+#banner h1 a { display: block; width: 241px; height: 83px; background: url(../images/banner.gif) no-repeat; background-position: center center; }
+
+/* Navigation */
+#nav { float: left; position: relative; top: 50px; left: 60px; margin-left: 300px; margin-left: 0; }
+#nav ul { margin: 0; padding: 0; list-style: none; }
+#nav li { float: left; margin: 0; margin-right: 1px; padding: 0; }
+#nav li a { float: left; cursor: pointer; height: 34px; line-height: 34px; padding-left: 15px; color: #00438e; font-family: Georgia; font-size: 18px; text-decoration: none; }
+#nav li a span { float: left; padding-right: 15px; }
+#nav li a.active, #nav li a:hover { background: url(../images/tab-bg.gif) top left no-repeat; color: #900; }
+#nav li a.active span, #nav li a:hover span { background: url(../images/tabcorner-right.gif) top right no-repeat; }
+
+/* Bar - under navigation */
+#bar { clear: left; height: 25px; line-height: 25px; border:1px solid #c1c1b5; border-left: 0; border-right: 0; background: #DEDED0 url(../images/smaldlfade-bg.gif) repeat-x; background-position: 0 center; }
+
+/* Search */
+#search { width: 770px; margin: 0 auto; text-align: left; padding: 0 15px; }
+
+/* Login/Register links box */
+#login-register { position: absolute; top: 0; right: 0; margin: 5px; background: #f6f6e8; color: #900; }
+#login-register p { margin: 0; padding: 5px 15px; }
+
+/* Content */
+#body { }
+#text { clear: both; margin: 15px; margin-bottom: 10px; padding-bottom: 40px; border-bottom: 1px solid #ccc; }
+
+/* Footer */
+#footer { color: #666; font-size: 11px; line-height: 22px; margin-bottom: 30px; }
+#footer a { color: #666; }
+#footer p { margin: 0; padding: 0; }
+#footer-links { float: right; }
+#footer-address, #footer-links { margin: 0 15px; }

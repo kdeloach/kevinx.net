@@ -1,0 +1,6 @@
+[submodule "kevinx.net/html/labs"]
+	path = kevinx.net/html/labs
+	url = https://github.com/kdeloach/labs.git
+[submodule "music.kevinx.net"]
+	path = music.kevinx.net
+	url = https://github.com/kdeloach/music.git

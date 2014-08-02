@@ -1,0 +1,20 @@
+
+/* This is the width of every content block on the page */
+/* New Members, New Networks, New Reports, New Fishing Reports, Newest Photos */
+.block-body { width:300px; }
+
+/* Minumum width of the site, this is so the page doesn't get squished when the window is resized */
+#container { min-width:1000px; }
+
+
+/* This is the height for the top row of content blocks 
+ * New Members, New Members, New Networks */
+#content .block { height:230px; }
+
+/* This is the height for the bottom row of content blocks
+ * New Reports, New Fishing Reports, Newest Photos */
+#content .block2 { height:220px; }
+
+/* This is the height for the 3 content blocks right above the footer 
+ * Product Review, Top Ranked Members, Top Ranked Photos */
+#lower-content .block { height:150px; }

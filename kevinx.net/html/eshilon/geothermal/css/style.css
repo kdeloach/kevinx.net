@@ -1,0 +1,48 @@
+@import url(kevinxnet.css);
+
+body { font-family: "Tahoma", arial, sans-serif; font-size: 12px; line-height: 16px; color: #000; background:#333 url(../images/bg.gif) repeat-x; }
+
+a:link    { text-decoration:underline; color:#618707; }
+a:visited { text-decoration:underline; color:#618707; }
+a:hover   { text-decoration:underline; color:#4a6605; }
+a:active  { text-decoration:underline; color:#4a6605; }
+
+#container-wrapper { width:100%; }
+#container { margin:0 auto; width:812px; }
+
+.edge-left { float:left; padding-left:6px; margin:0; background:url(../images/edge-left.gif) repeat-y; }
+.edge-right { float:left; padding-right:6px; margin:0; background:url(../images/edge-right.gif) top right repeat-y; }
+
+#header, #dashboard, #content, #footer 
+{ float:left; clear:left; width:800px; }
+
+#banner { float:left; height:121px; background-color:#4B6907; }
+#header-right { float:left; height:121px; background-color:#ADAD6D; line-height:0;  }
+#header-right { width:442px; }
+#quote {float:left; background:url(../images/quote-bg.jpg) no-repeat; width:382px; height:60px; padding:23px 30px 0 30px; font-weight:bold; font-size:11px; line-height:16px; }
+#nav { float:left; clear:left; width:442px; height:38px; margin:0; padding:0; line-height:0; border-bottom:1px solid #f00; }
+#nav ul { list-style-type:none; margin:0; padding:0; }
+#nav li { margin:0; padding:0; display:inline; }
+
+#dashboard { width:800px; height:286px; background:#fff url(../images/dashboard-bg.jpg) no-repeat; }
+#dashboard p { margin:225px 0 0 50px; padding:0; font-size:20px; line-height:20px; font-family:"Georgia","Times",serif; color:#fff; }
+#dashboard .green { color:#b0fb73 }
+
+#content { background:#fff url(../images/content-bg.jpg) top right no-repeat; padding:10px; width:780px; }
+#content .left { float:left; margin-right:30px; }
+#content .right { float:left; width:544px; }
+#content .subtitle { font-family:"Myriad Pro",sans-serif; font-size:18px; line-height:20px; margin:15px 0; }
+#content p { margin:10px 0; }
+
+.box { width:196px; }
+.box .title { float:left; width:166px; height:36px; padding:0 15px; background:url(../images/box-header.jpg) no-repeat;
+              font-family:"Myriad Pro",sans-serif; font-size:12px; line-height:36px; color:#dbe6b5;
+ } 
+.box .body { float:left; clear:left; width:176px; background:url(../images/box-bg.jpg) repeat-y; 
+             padding:0 10px 10px 10px;
+}
+.box .footer { float:left; width:196px; height:6px; background:url(../images/box-footer.jpg) no-repeat; } 
+
+#footer { width:775px; height:25px; background:url(../images/footer-bg2.gif);
+         font-size:12px; padding-left:25px; padding-top:15px;
+ }

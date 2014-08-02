@@ -1,0 +1,78 @@
+
+body { background: #fbfaf6 url(../images/bg.png) 0 0 repeat-x; margin: 0; padding: 0; }
+a { color: #761427; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+form { margin: 0; padding: 0; }
+p { margin-top: 0; padding-top: 0; }
+
+#headerLogin { height: 38px; overflow: hidden; text-align: right; } 
+#headerLogin .inner { padding-top: 0px; }
+#headerLogin form { display: inline; }
+#headerLogin input[type='text'] { font-size: 14px; }
+
+#header { margin-bottom: 12px; height: 120px; }
+#header h1 { font-family: Georgia,"Times New Roman",Times,serif; font-size: 48px; margin: 0; padding: 0; margin-top: 35px; }
+#header h1 a { color: #000; text-decoration: none; font-weight: normal; }
+#header h1 a { display: inline-block; width: 384px; height: 40px; background: url(../images/tt.png) 0 0 no-repeat; text-indent: -10000px; overflow: hidden; } 
+
+button { background: url(../images/btn-bg.png) 0 0 repeat-x; padding: 3px; 
+    cursor: pointer; border: 1px solid #555; -moz-border-radius: 4px; }
+button:active { background-image: url(../images/btn-bg2.png); }
+
+#search .tabs { overflow: auto; }
+#search .tabs .tab {
+  display: inline-block; margin-left: 5px; padding: 5px 15px; background: #bb99aa; 
+  text-decoration: none; color: #fff; font-size: 24px;
+  border: 1px solid #555;
+}
+#search .tabs .tab.active, #search .tabs .tab:hover {
+    background: #992233; border-bottom: 1px solid #992233;
+}
+#search .tabs .tab.first { margin-left: 20px; }
+#search .box { background: #992233; border: 1px solid #555; margin-top: -1px; }
+#search .box p { margin: 0; padding: 0; }
+#search .box .txt { font-size: 20px; width: 100%; border: 1px solid #555; }
+#search .box .btn {
+  display: inline-block; padding: 5px; margin-left: 5px; background-color: #b06c7d;
+  color: #fff; text-decoration: none; font-size: 18px;
+}
+
+#footer { background: #000; color: #999; }
+
+#hpContent { padding: 15px 0; float: left; background: #fff; /* background: #fff url(../images/cbg.png) 0 0 repeat-y; */ }
+#hpContent.hp { background: none; }
+
+/* #hpContentBtm { float: left; clear: both; height: 40px; width: 100%; background: url(../images/cbgbtm.png) 0 0 no-repeat; } */
+
+.featureTitle .inner { border: 1px solid #ccc; background: url(../images/feature-bg.png) 0 0 repeat-x; padding: 8px 10px; }
+.featureTitle .inner { -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.featureTitle h2 { margin: 0; padding: 0; font-weight: normal; font-size: 20px; }
+.featureBody { }
+.featureBody .inner { padding: 10px 10px 0; border: 1px solid #ccc; border-top: 0; overflow: hidden; background: #fff; }
+
+.hpBookListing .item { clear: both; overflow: hidden; margin-bottom: 10px; }
+.hpBookListing .cover img { width: 100px; float: left; border: 0; }
+.hpBookListing h2 span { font-size: 12px; }
+
+.bookListing .item { clear: both; overflow: hidden; margin-bottom: 10px; }
+.bookListing .cover img { width: 100px; float: left; border: 0; }
+.bookListing h2 span { font-size: 12px; }
+
+.bookListingGuide { border: 1px solid #B8B5AB; }
+.bookListingGuide th { text-align: left; font-weight: bold; color: #fff; font-size: 11px;
+                      background: #900 url(../images/thbg.png) 0 0 repeat-x; }
+.bookListingGuide { font-family: sans-serif; font-size: 13px;  }
+
+.bookDetail .title h2 { font-size: 20px; color: #231f20; margin-bottom: 5px; }
+.bookDetail .featureBox.info .featureBody .inner { padding: 5px; }
+.bookDetail .info table { }
+.bookDetail .info th { font-weight: bold; text-align: left; }
+.bookDetail .price { font-size: 20px; font-weight: bold; color: #900; }
+.bookDetail .authors { font-size; 14px; }
+
+button.contactSeller span { padding-left: 20px; background: url(../images/email.png) 0 0 no-repeat; }
+button.alert span { padding-left: 20px; background: url(../images/alert.png) 0 0 no-repeat; }
+
+/* for debugging */
+.fillbg { background: #eee; }

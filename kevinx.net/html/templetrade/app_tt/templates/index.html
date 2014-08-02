@@ -1,0 +1,131 @@
+{% extends "master.html" %}
+
+{% block contentContainer %} 
+<div id="hpContent" class="hp">
+
+    <div class="grid_16">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus gravida vehicula. Donec sapien eros, facilisis gravida pharetra nec, scelerisque ac magna. Maecenas egestas laoreet lectus non ultrices. Nulla facilisi. Aliquam erat volutpat. Sed ac diam ut arcu ullamcorper pulvinar id ac massa. Nulla euismod purus vitae tortor eleifend mollis.</p>
+    </div>
+
+    {{ macros.featureBox(
+        '<h2>Categories</h2>', 
+        'grid_7', '
+        <table width="100%"><tr>
+            <td>
+                <a href="browse/ACCT">ACCT</a><br />
+                <a href="browse/ACCT">ACT SCI</a><br />
+                <a href="browse/ACCT">ADVERTISIN</a><br />
+                <a href="browse/ACCT">AFR-AMER S</a><br />
+                <a href="browse/ACCT">AMER ST</a><br />
+                <a href="browse/ACCT">ANTHRO</a><br />
+                <a href="browse/ACCT">AOD</a><br />
+                <a href="browse/ACCT">ARABIC</a><br />
+                <a href="browse/ACCT">ARCH</a><br />
+                <a href="browse/ACCT">ART</a><br />
+                <a href="browse/ACCT">ART ED</a><br />
+                <a href="browse/ACCT">ART H</a><br />
+                <a href="browse/ACCT">ASIA ST</a><br />
+                <a href="browse/ACCT">BIOLOGY</a><br />
+                <a href="browse/ACCT">BOTANY</a><br />
+                <a href="browse/ACCT">BTMM</a><br />
+                <a href="browse/ACCT">BUS</a><br />
+                <a href="browse/ACCT">BUS ADM</a><br />
+                <a href="browse/ACCT">BUS ED</a><br />
+                <a href="browse/ACCT">C+IN SC</a><br />
+                <a href="browse/ACCT">C+R PLN</a><br />
+                <a href="browse/ACCT">CAHP</a><br />
+                <a href="browse/ACCT">CANCL CRSE</a>
+            </td><td>
+                <a href="browse/ACCT">ACCT</a><br />
+                <a href="browse/ACCT">ACT SCI</a><br />
+                <a href="browse/ACCT">ADVERTISIN</a><br />
+                <a href="browse/ACCT">AFR-AMER S</a><br />
+                <a href="browse/ACCT">AMER ST</a><br />
+                <a href="browse/ACCT">ANTHRO</a><br />
+                <a href="browse/ACCT">AOD</a><br />
+                <a href="browse/ACCT">ARABIC</a><br />
+                <a href="browse/ACCT">ARCH</a><br />
+                <a href="browse/ACCT">ART</a><br />
+                <a href="browse/ACCT">ART ED</a><br />
+                <a href="browse/ACCT">ART H</a><br />
+                <a href="browse/ACCT">ASIA ST</a><br />
+                <a href="browse/ACCT">BIOLOGY</a><br />
+                <a href="browse/ACCT">BOTANY</a><br />
+                <a href="browse/ACCT">BTMM</a><br />
+                <a href="browse/ACCT">BUS</a><br />
+                <a href="browse/ACCT">BUS ADM</a><br />
+                <a href="browse/ACCT">BUS ED</a><br />
+                <a href="browse/ACCT">C+IN SC</a><br />
+                <a href="browse/ACCT">C+R PLN</a><br />
+                <a href="browse/ACCT">CAHP</a><br />
+                <a href="browse/ACCT">CANCL CRSE</a>
+            </td>
+        </tr></table>
+    ') }}
+    
+    {{ macros.featureBox(
+        '<h2>Books <span><a href="browse">View All &raquo;</a></span></h2>', 
+        'grid_9 hpBookListing', '
+        <div class="item">
+            <div class="cover">
+                <img src="content/upload/algo1.jpg" alt="" />
+            </div>
+            <div class="content">
+                <p>
+                    <a href="detail/1">Algorithms in a Nutshell [Paperback]</a><br />
+                    Price: $31.49
+                </p>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="cover">
+                <img src="content/upload/algo2.jpg" alt="" />
+            </div>
+            <div class="content">
+                <p>
+                    <a href="detail/1">Algorithm Design [Hardcover]</a><br />
+                    Price: $95.79
+                </p>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="cover">
+                <img src="content/upload/algo3.jpg" alt="" />
+            </div>
+            <div class="content">
+                <p>
+                    <a href="detail/1">Data Structures and Algorithms in Java [Hardcover]</a><br />
+                    Price: $99.00
+                </p>
+            </div>
+        </div>   
+        
+        <div class="item">
+            <div class="cover">
+                <img src="content/upload/eng1.jpg" alt="" />
+            </div>
+            <div class="content">
+                <p>
+                    <a href="detail/1">Security Engineering: A Guide to Building Dependable Distributed Systems [Hardcover]</a><br />
+                    Price: $61.01
+                </p>
+            </div>
+        </div>  
+        
+        <div class="item">
+            <div class="cover">
+                <img src="content/upload/math1.jpg" alt="" />
+            </div>
+            <div class="content">
+                <p>
+                    <a href="detail/1">Concrete Mathematics: A Foundation for Computer Science (2nd Edition) [Hardcover]</a><br />
+                    Price: $62.39
+                </p>
+            </div>
+        </div>
+    ') }}
+    
+</div>
+{% endblock %}

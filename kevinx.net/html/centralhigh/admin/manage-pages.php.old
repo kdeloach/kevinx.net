@@ -1,0 +1,35 @@
+<?php
+  include 'include/admin-header.php';
+  include '../include/auth.php';
+  
+  if(isset($_GET['act'])&&$_GET['id']){
+    if($_GET['act']=='del'){
+      $_GET['id']=addslashes($_GET['id']);
+      if(is_numeric($_GET['id']))
+        $sql->query("DELETE FROM nd_pages WHERE id='$_GET[id]'");
+    }
+  }
+ 
+echo "This will eventually replace cms...";
+ 
+  $sql->query('SELECT * FROM nd_pages ORDER BY name');
+  
+  println('<table width="100%" id="highlight"');
+  println('<tr><th>Name</th><th>URL</th><th>Created</th><th>Modified</th><th colspan="2"></th></tr>');
+  while($tmp=$sql->fetch_assoc()){
+    #Name and url
+    println('<tr><td>'.$tmp['name'].'</td><td>/pages/'.$tmp['name'].'</td>');
+    #Created
+    println('<td>'.date('Y-m-d H:i:s',$tmp['created']).'</td>');
+    #Modified
+    println('<td>'.date('Y-m-d H:i:s',$tmp['modified'].'</td>'));
+    #Edit
+    println('<td><a href="edit-pages.php?id='.$tmp['id'].'">Edit</a></td>');
+    #Delete
+    println('<td><a href="'.$_SERVER['PHP_SELF'].'?act=del&id='.$tmp['id'].'">Delete</a></td></tr>');
+  }
+  println('</table>');
+  
+  include 'include/admin-footer.php';
+  
+?>
